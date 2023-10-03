@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro:wght@600;900&display=swap'); /* font-family: 'Press Start 2P', cursive; --  font-family: 'Source Code Pro', monospace;*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .container {
@@ -40,15 +43,49 @@ nav {
     padding: 50px;
 }
 
+nav #logo {
+    font-weight: bolder;
+    color: #1eff00;
+    font-size: 50px;
+}
+
+#logo {
+    -webkit-text-stroke: 2px rgb(58, 7, 58);
+    text-stroke: 2px rgb(58, 7, 58);
+}
+
 nav div#links {
     float: right;
 }
 
+nav div#links a {
+    text-decoration: none;
+}
+
 nav span {
-    margin: 60px;
+    margin: 50px;
+    color: #f9f9f9;
+}
+
+nav span:hover {
+    margin: 50px;
+    color: #1eff00;
+    transition: 1s;
 }
 
 nav, main {
-    background-image: linear-gradient(to right, #ae2d91 , purple);
+    background-image: linear-gradient(to right, #ae2d91 , rgb(102, 20, 102));
 }
 
+#inicio {
+    margin-left: 60px;
+}
+
+#semanaacademica {
+    margin-top: 150px; 
+    font-size: 50px;
+}
+
+#compinfo {
+
+}
