@@ -7,9 +7,50 @@
     font-family: 'Source Code Pro', monospace;
 }
 
-body {
-    background-image: linear-gradient(to right, #df21b5 , rgb(102, 20, 102));
+main {
+    background-image: linear-gradient(to right, #1d1ab3 , rgb(141, 3, 168));
+    position: absolute;
 }
+
+nav {
+    background-image: linear-gradient(to right, #1d1ab3 , rgb(141, 3, 168));
+}
+
+#semanaacademica { 
+    box-shadow: .6em 0 0 #bcc0bf;
+    width: 23ch;
+    overflow: hidden;
+    color: #FFF;
+    white-space: nowrap;
+    animation: caret .8s step-end infinite alternate,
+               type 5s steps(23, end)
+  }
+  
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+  
+  }
+  
+  @use postcss-preset-env {
+    stage: 0;
+    autoprefixer: {
+      grid: true;
+    }
+    browsers: [
+      "last 1 Chrome versions",
+      "last 1 Firefox versions",
+      "last 1 Safari versions",
+      "last 1 Edge versions"
+    ]
+  }
+
+#inicio {
+    height: 1000px;
+}
+
 .container {
     width: 1040px;
     max-width: 100%;
@@ -48,12 +89,8 @@ nav {
 
 nav #logo {
     font-weight: bolder;
-    color: #1eff00;
+    color: rgb(217, 137, 248);
     font-size: 50px;
-}
-
-#logo {
-    -webkit-text-stroke: 2px rgb(58, 7, 58);
 }
 
 nav ul#links {
@@ -71,7 +108,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #1eff00;
+
 }
 
 nav ul li:hover  {
@@ -92,4 +129,8 @@ nav ul li:hover  {
 
 #compinfo {
 
+}
+
+#jogo {
+    background-color: brown;
 }
