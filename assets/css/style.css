@@ -23,9 +23,9 @@ nav {
     color: #FFF;
     white-space: nowrap;
     animation: caret .8s step-end infinite alternate,
-               type 5s steps(23, end)
+               type 5s steps(23, end);
+               
   }
-  
   
   @keyframes type {
     0% {
@@ -120,8 +120,7 @@ nav ul li:hover  {
 }
 
 #semanaacademica {
-    margin-top: 150px; 
-    font-size: 50px;
+
 }
 
 
