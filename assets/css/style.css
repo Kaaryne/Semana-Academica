@@ -21,6 +21,17 @@ nav {
     padding: 50px;
 }
 
+nav span a {
+    text-decoration: none;
+    color: #f9f9f9;
+    display: inline-block;
+}
+
+nav span a:hover {
+    transition: all 1s;
+    color: rgb(209, 37, 209);
+}
+
 nav #logo {
     font-weight: bolder;
     color: rgb(217, 137, 248);
@@ -50,13 +61,13 @@ nav ul li:hover  {
 
 div#inicio h1 { 
     font-size: 50px;
-    box-shadow: .6em 0 0 rgb(217, 137, 248);
-    width: 23ch;
+    box-shadow: .3em 0 0 rgb(217, 137, 248);
+    width: 17ch;
     overflow: hidden;
     color: #FFF;
     white-space: nowrap;
     animation: caret .8s step-end infinite alternate,
-               type 5s steps(23, end);
+               type 5s steps(17, end);
                
   }
   
@@ -74,7 +85,7 @@ div#inicio h1 {
 }
 
 .container {
-    width: 1040px;
+    width: 1300px;
     max-width: 100%;
     margin: auto;
 }
@@ -144,15 +155,18 @@ form {
 }
 
 form fieldset {
+    margin-top: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 230px;
 }
 
 form legend {
-  font-weight: bold;
-  color: #f9f9f9;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #f9f9f9;
 }
 
 .input-container {
@@ -163,56 +177,14 @@ form legend {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
 }
 
-.radio-group label {
-    display: inline;
-    margin-right: 10px;
-    font-weight: normal;
-  }
-  
-  .input-check {
-      display: inline-block;
-      margin-right: 10px;
-  }
-  
-  .input-check input[type="checkbox"] + label {
-      display: inline-block;
-      font-weight: normal;
-  }
-
-  textarea {
+.input-container input {
     width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical; 
-    height: 120px; 
-  }
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
   
-  select {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-
-  button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 7px;
-    padding: 10px;
-    cursor: pointer; 
-  }
-  
-  button[type="reset"] {
-    background-color: #6c757d;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-
   
