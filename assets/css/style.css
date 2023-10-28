@@ -62,12 +62,12 @@ nav ul li:hover  {
 div#inicio h1 { 
     font-size: 50px;
     box-shadow: .3em 0 0 rgb(217, 137, 248);
-    width: 17ch;
+    width: 16ch;
     overflow: hidden;
     color: #FFF;
     white-space: nowrap;
-    animation: caret .8s step-end infinite alternate,
-               type 5s steps(17, end);
+    animation: caret .3s step-end infinite alternate,
+               type 2s steps(16, end);
                
   }
   
@@ -156,10 +156,10 @@ form {
 
 form fieldset {
     margin-top: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 10px;
-  margin-bottom: 230px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 230px;
 }
 
 form legend {
@@ -171,6 +171,7 @@ form legend {
 
 .input-container {
     margin-bottom: 10px;
+ 
 }
 
 .input-container label {
@@ -180,11 +181,34 @@ form legend {
     font-size: 20px;
 }
 
-.input-container input {
-    width: 100%;
+.input-container input, select {
     height: 35px;
     margin-bottom: 15px;
     border-radius: 10px;
+    width: 100%;
 }
+
+button {
+    background-color: #9900ff;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer; 
+  }
+  
+  button[type="reset"] {
+    background-color: #ff0000;
+  }
+  
+  button:hover {
+    background-color: #730e97;
+  }
+
+  button[type="reset"]:hover {
+    background-color: #d51313;
+  }
+
+
   
   

@@ -34,30 +34,42 @@
                         <legend>Inscrição para o Evento</legend>
     
                         <div class="input-container">
-                            <label for="titulo">Nome:</label>
-                            <input type="text" name="titulo" id="titulo" placeholder="Título do livro" required autofocus>
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome Completo" required autofocus>
                         </div>
     
                         <div class="input-container">
-                            <label for="titulo">Matrícula:</label>
-                            <input type="text" name="titulo" id="titulo" placeholder="Título do livro" required autofocus>
+                            <label for="matrícula">Matrícula:</label>
+                            <input type="text" name="matrícula" id="matrícula" pattern="\d{10}" placeholder="Deve conter 10 dígitos" required>
                         </div>
                         
                         <div class="input-container">
-                            <label for="editora">CPF:</label>
-                            <input type="text" name="editora" id="editora" placeholder="Editora" required>
+                            <label for="CPF">CPF:</label>
+                            <input type="text" name="CPF" id="CPF" placeholder="xxx.xxx.xxx-xx" pattern="\d{3}.\d{3}.\d{3}-\d{2}" required>
                         </div>
     
                         <div class="input-container">
-                            <label for="editora">E-mail:</label>
-                            <input type="text" name="editora" id="editora" placeholder="Editora" required>
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="Editora" required>
                         </div>
     
                         <!-- campo de seleção -->
     
                         <div class="input-container">
-                            <label>Turma:</label>
-                            <input type="text">
+                            <label for="categoria">Turma:</label>
+                            <select name="categoria" id="categoria" required>
+                                <option value="">Selecione</option>
+                                <option value="1A">Info 1A</option>
+                                <option value="1B">Info 1B</option>
+                                <option value="2A">Info 2A</option>
+                                <option value="2B">Info 2B</option>
+                                <option value="3A">Info 3A</option>
+                                <option value="3B">Info 3B</option>
+                            </select>
+                        </div>
+                        <div class="actions">
+                            <button type="submit">Cadastrar</button>
+                            <button type="reset">Limpar</button>
                         </div>
                     </fieldset>
                 </form>
