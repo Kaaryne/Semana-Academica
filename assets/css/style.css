@@ -166,6 +166,19 @@ div#inicio h3 {
     margin-bottom: 20px;
 }
 
+#jogos {
+    background-color: black;
+    height: 700px;
+    color: white;
+}
+
+#jogos h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
 /* cadastro */
 
 #cadastro {
@@ -254,6 +267,18 @@ button {
     background-color: #d51313;
   }
 
+/* Rodapé */
 
+footer {
+    background-color: rgb(46, 3, 46);
+    height: 100px;
+}
+
+footer p {
+    color: white;
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
   
   
