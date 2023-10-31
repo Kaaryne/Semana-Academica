@@ -168,17 +168,116 @@ div#inicio h3 {
 
 #jogos {
     background-color: black;
-    height: 700px;
+    height: 900px;
     color: white;
 }
 
 #jogos h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
-    padding-top: 30px;
+    font-size: 60px;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.cont {
+    width: 100%;
+    margin-bottom: 90px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 65%;
+    height: fit-content;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 600px;
+}
+
+#cronograma {
+    text-align: center;
+    color: white;
+    background-color: rgb(89, 14, 89);
+    height: 550px;
+}
+
+#cronograma h1 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+#cronograma table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cronograma table, th, td {
+    border: 1px solid #ffffff;
+}
+#cronograma th, td {
+    padding: 10px;
+    text-align: left;
+}
+#cronograma th {
+    background-color: #5b114b;
+}
+
+#fotos1 {
+    background-color:rgb(40, 17, 62);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+}
+
+#fotos {
+    background-color:rgb(40, 17, 62);
+    margin: 0;
+    padding: 0;
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain {
     text-align: center;
 }
 
+.contain img {
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.butt {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.butt:hover {
+    background-color: #2980b9;
+    transform: scale(1.3);
+    transition: all 2s;
+}
 /* cadastro */
 
 #cadastro {

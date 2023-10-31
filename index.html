@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="script" href="script.js">
     <meta name="author" content="karyne, kayla, willian">
+    <link rel="icon" type="image/x-icon" href="assets/img/pc.ico">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 </head>
+
 <body>
     <header>
         <nav>
             <span id="logo"><a href="index.html">VIII-SCI</a></span>
             <ul id="links">
-                <li><a href="#cronograma">Maratona</a></li>
+                <li><a href="#maratona">Maratona</a></li>
                 <li><a href="#jogos">Jogos Eletrônicos</a></li>
-                <li><a href="#contato">Cronograma</a></li>
-                <li><a href="#contato">Fotos</a></li>
+                <li><a href="#cronograma">Cronograma</a></li>
+                <li><a href="#fotos">Fotos</a></li>
             </ul>
         </nav>
     </header>
@@ -27,11 +31,11 @@
                 <h1>SEMANA ACADÊMICA</h1>
                 <h2>DE COMPUTAÇÃO E INFORMÁTICA</h2>
                 <br>
-                <p> A Semana Acadêmica de Informática e Computação 
-                    é um evento anual que reúne estudantes, professores 
+                <p> A Semana Acadêmica de Informática e Computação
+                    é um evento anual que reúne estudantes, professores
                     e profissionais da área no Instituto Federal de Tecnologia (IF).
-                     Durante essa semana, os participantes têm a oportunidade de mergulhar
-                     em um universo de conhecimento, inovação e tecnologia.</p>
+                    Durante essa semana, os participantes têm a oportunidade de mergulhar
+                    em um universo de conhecimento, inovação e tecnologia.</p>
                 <br>
                 <h3>Data: 23, 24 e 25 de novembro de 2023</h3>
                 <br>
@@ -52,20 +56,95 @@
             <img src="/assets/img/download.png" id="img3">
         </section>
         <section id="jogos">
+            <div>
                 <h1>Jogos Eletrônicos</h1>
+            </div>
+            <div class="cont clearfix">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/Rocket.jpg" alt="Hogwarts"></div>
+                    <div class="swiper-slide"><img src="assets/img/Valorant.webp" alt="Hogsmeade"></div>
+                    <div class="swiper-slide"><img src="assets/img/Free Fire.webp" alt="Beco Diagonal"></div>
+               </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div> 
+           </div>
+               <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+           <script>
+                const swiper = new Swiper('.swiper', { autoplay: {delay: 3000, disableOnInteraction: false,},
+               loop: true, pagination: {el: '.swiper-pagination',},
+               navigation: {nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',
+               },});
+           </script>
         </section>
-        <section>
-            <h1>Cronograma</h1>
+        <section id="cronograma">
+            <h1>Cronograma de Eventos</h1>
+
+            <table>
+                <tr>
+                    <th>Data</th>
+                    <th>Horário</th>
+                    <th>Evento</th>
+                </tr>
+                <!-- Dia 1 -->
+                <tr>
+                    <td rowspan="3">Dia 23</td>
+                    <td>09:00 - 10:30</td>
+                    <td>Evento 1</td>
+                </tr>
+                <tr>
+                    <td>11:00 - 12:30</td>
+                    <td>Evento 2</td>
+                </tr>
+                <tr>
+                    <td>14:00 - 15:30</td>
+                    <td>Evento 3</td>
+                </tr>
+                <!-- Dia 2 -->
+                <tr>
+                    <td rowspan="2">Dia 24</td>
+                    <td>10:00 - 11:30</td>
+                    <td>Evento 4</td>
+                </tr>
+                <tr>
+                    <td>15:00 - 16:30</td>
+                    <td>Evento 5</td>
+                </tr>
+                <!-- Dia 3 -->
+                <tr>
+                    <td rowspan="4">Dia 25</td>
+                    <td>08:30 - 10:00</td>
+                    <td>Evento 6</td>
+                </tr>
+                <tr>
+                    <td>11:30 - 13:00</td>
+                    <td>Evento 7</td>
+                </tr>
+                <tr>
+                    <td>14:30 - 16:00</td>
+                    <td>Evento 8</td>
+                </tr>
+                <tr>
+                    <td>17:30 - 19:00</td>
+                    <td>Evento 9</td>
+                </tr>
+            </table>
         </section>
-        <section>
-            <h1>Fotos do Evento</h1>
+        <div id="fotos1">
+            <h1>Fotos do Evento de 2022</h1>
+        </div>
+        <section id="fotos">
+            <div class="contain">
+                <img src="assets/img/evento.jpg" alt="Imagem"><br>
+                <button class="butt">Acesse as fotos aqui</button>
+            </div>
         </section>
-        <Section>
-            <h1>Maratona</h1>
-        </Section>
     </main>
     <footer>
         <p>Desenvolvido por Willian, Karyne e Kayla</p>
     </footer>
 </body>
+
 </html>
