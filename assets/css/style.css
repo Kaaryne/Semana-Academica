@@ -21,6 +21,15 @@ nav {
     padding: 50px;
 }
 
+#logo img {
+    object-fit: cover;
+    height: 200px;
+}
+
+#logo {
+    display: inline-block;
+}
+
 nav span a {
     text-decoration: none;
     color: #f9f9f9;
