@@ -71,7 +71,7 @@ nav ul li:hover  {
 
 div#inicio h1 { 
     font-size: 50px;
-    box-shadow: .2em 0 0 rgb(217, 137, 248);
+    box-shadow: .6em 0 0 rgb(217, 137, 248);
     width: 17ch;
     overflow: hidden;
     color: #FFF;
