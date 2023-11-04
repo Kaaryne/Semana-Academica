@@ -49,6 +49,7 @@ nav #logo {
 
 nav ul#links {
     float: right;
+    padding-top: 70px;
 }
 
 nav li {
