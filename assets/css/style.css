@@ -7,6 +7,10 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+body {
+    background-image: linear-gradient(to right, #1d1ab3 , rgb(141, 3, 168));
+}
+
 .banner {
     background-image: linear-gradient(to right, #1d1ab3 , rgb(141, 3, 168));
     position: absolute;
@@ -178,7 +182,6 @@ div#inicio h3 {
 }
 
 #jogos {
-    background-color: black;
     height: 750px;
     color: white;
 }
@@ -215,8 +218,8 @@ div#inicio h3 {
 #maratona {
     color: white;
     text-align: center;
-    background-color: rgb(97, 4, 81);
-    height: 600px;
+    height: 650px;
+
 }
 
 #maratona h1 {
@@ -229,16 +232,9 @@ div#inicio h3 {
     padding: 30px 0 0 0;
 }
 
-#maratona iframe {
-    height: 400px;
-    width: 600px;
-    border-radius: 10px;
-}
-
 #cronograma {
     text-align: center;
     color: white;
-    background-color: rgb(89, 14, 89);
     height: 650px;
 }
 
@@ -261,12 +257,10 @@ div#inicio h3 {
     padding: 10px;
     text-align: left;
 }
-#cronograma th {
-    background-color: #5b114b;
-}
+
 
 #fotos1 {
-    background-color:rgb(40, 17, 62);
+   
     display: flex;
     color: white;
     align-items: center;
@@ -275,7 +269,7 @@ div#inicio h3 {
 }
 
 #fotos {
-    background-color:rgb(40, 17, 62);
+    
     margin: 0;
     padding: 0;
     height: 70vh;
@@ -403,7 +397,6 @@ button {
 /* Rodapé */
 
 footer {
-    background-color: rgb(46, 3, 46);
     height: 100px;
 }
 
