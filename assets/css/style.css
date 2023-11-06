@@ -182,8 +182,9 @@ div#inicio h3 {
 }
 
 #jogos {
-    height: 750px;
+    height: 1000px;
     color: white;
+
 }
 
 #jogos h1 {
@@ -212,7 +213,7 @@ div#inicio h3 {
 
 .swiper-slide img {
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 #maratona {
@@ -406,5 +407,8 @@ footer p {
     font-size: 20px;
     text-align: center;
 }
-  
-  
+
+.computador {
+    width: 100%;
+    height: ;
+}
