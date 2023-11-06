@@ -212,6 +212,23 @@ div#inicio h3 {
     height: 600px;
 }
 
+#maratona {
+    color: white;
+    text-align: center;
+    background-color: rgb(97, 4, 81);
+    height: 400px;
+}
+
+#maratona h1 {
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 20px;
+}
+
+#maratona h2 {
+    padding: 20px 0;
+}
+
 #cronograma {
     text-align: center;
     color: white;
