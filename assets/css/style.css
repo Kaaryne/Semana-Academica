@@ -410,5 +410,6 @@ footer p {
 
 .computador {
     width: 100%;
-    height: ;
+    height: 400px;
+    object-fit: cover;
 }
