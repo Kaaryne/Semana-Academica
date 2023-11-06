@@ -10,7 +10,7 @@
 .banner {
     background-image: linear-gradient(to right, #1d1ab3 , rgb(141, 3, 168));
     position: absolute;
-    height: 710px;
+    height: 600px;
 }
 
 nav {
@@ -90,7 +90,7 @@ div#inicio h1 {
 
 #inicio {
     height: 100px;
-    padding-top: 150px;
+    padding-top: 0px;
     padding-left: 50px;
 }
 
@@ -138,7 +138,7 @@ div#inicio h3 {
 
 #preencher {
     background-color: white;
-    height: 700px;
+    height: 600px;
 }
 
 #patrocinadores {
@@ -216,17 +216,23 @@ div#inicio h3 {
     color: white;
     text-align: center;
     background-color: rgb(97, 4, 81);
-    height: 400px;
+    height: 600px;
 }
 
 #maratona h1 {
     font-size: 40px;
     font-family: 'Press Start 2P', cursive;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 #maratona h2 {
-    padding: 20px 0;
+    padding: 30px 0 0 0;
+}
+
+#maratona iframe {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
 }
 
 #cronograma {
