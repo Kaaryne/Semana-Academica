@@ -149,6 +149,8 @@ div#inicio h3 {
     background-color: white;
     height: 425px;
     text-align: center;
+    margin-top: 50px;
+
 }
 
 #patrocinadores h1 {
@@ -182,8 +184,9 @@ div#inicio h3 {
 }
 
 #jogos {
-    height: 750px;
+    height: 1000px;
     color: white;
+
 }
 
 #jogos h1 {
@@ -212,7 +215,7 @@ div#inicio h3 {
 
 .swiper-slide img {
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 #maratona {
@@ -226,21 +229,33 @@ div#inicio h3 {
     font-size: 40px;
     font-family: 'Press Start 2P', cursive;
     padding-top: 40px;
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 25%;
+    z-index: 3;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 #maratona h2 {
-    padding: 30px 0 0 0;
+    font-size: 20px;
+    padding-top: 70px;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 28%;
+    z-index: 3;
+    text-shadow: black 0.5em 0.2em 0.3em
 }
 
 #cronograma {
     text-align: center;
     color: white;
-    height: 650px;
+    height: 400px;
+    margin-bottom: 300px;
 }
 
 #cronograma h1 {
     font-size: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #cronograma table {
@@ -249,10 +264,13 @@ div#inicio h3 {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 300px;
 }
+
 #cronograma table, th, td {
     border: 1px solid #ffffff;
 }
+
 #cronograma th, td {
     padding: 10px;
     text-align: left;
@@ -406,5 +424,16 @@ footer p {
     font-size: 20px;
     text-align: center;
 }
-  
-  
+
+.computador {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 40%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 5%, black 40%);
+    position: relative;
+    display: inline-block;
+
+}
+
+
